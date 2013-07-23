@@ -1,0 +1,50 @@
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+table {
+    -webkit-user-select: none;
+     -moz-user-select: -moz-none;
+      -ms-user-select: none;
+          user-select: none;
+          cursor: default;
+}
+
+.label {
+	text-anchor: middle;
+	font-family: sans-serif;
+	font-size: 11px;
+	fill: black;
+}
+
+polygon {
+  stroke: black;
+  stroke-width: 1;
+}
+
+polygon:hover {
+  fill: #38B512;
+}
+
+.palkki {
+  fill: teal;
+  stroke: black;
+  stroke-width: 1;
+}
+
+.palkki:hover {
+  stroke: yellow;
+  "stroke-width": 5px;
+}
+
+svg text {
+  pointer-events: none;
+}
